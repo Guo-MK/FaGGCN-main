@@ -1,10 +1,10 @@
 # FaGGCN
-FaGGCN is a joint feature-learning and graph-structure-learning framework for multi-omics cancer subtyping: convolutional autoencoders learn survival-guided latent features, while a graph autoencoder plus GCN fuse inter-omics similarities into a comprehensive patient graph for precise classification.
+FaGGCN is a joint feature-learning and graph-structure-learning framework for multi-omics cancer subtyping: convolutional autoencoders learn survival-guided latent features; a graph autoencoder fuses inter-omics similarities into a comprehensive patient graph; and a graph convolutional network (GCN) performs precise classification.
 
 <img width="416" height="274" alt="image" src="Figure 1.png" />
 
 # How to run
-First, please unzip the dataset `data.zip`.
+First, please unzip the test dataset `data.zip`.
 
 Then install the required packages using `pip install -r requirements.txt`.
 
